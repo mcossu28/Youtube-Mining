@@ -1,0 +1,23 @@
+from __future__ import unicode_literals
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.naive_bayes import BernoulliNB
+from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+import string
+from numpy import random, array
+from sklearn.cluster import KMeans
+import moviepy as mp
+import pandas as pd
+from pandas import ExcelWriter
+from nltk.corpus import wordnet as wn
+import csv
+import os
+import moviepy.editor as mp
+import youtube_dl
+import speech_recognition as sr
+from pydub import AudioSegment
+import nltk
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
